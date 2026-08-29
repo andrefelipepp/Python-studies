@@ -1,0 +1,2 @@
+# Python-studies
+Repositório criado para armazenar meus estudos, exercicios e projetos desenvolvidos durante meu aprendizado em Python. Aqui estão reunidos conceitos fundamentais da linguagem, exemplos práticos, desafios de programação e diferentes aplicações para acompanhar minha evolução.
