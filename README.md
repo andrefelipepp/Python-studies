@@ -48,7 +48,7 @@ Python-studies/
 
 ## Mundo 1 — Fundamentos
 
-* [ ] Aula 01
+* [ok] Aula 01
 * [ ] Aula 02
 * [ ] Aula 03
 * [ ] Aula 04
