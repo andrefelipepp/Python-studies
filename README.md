@@ -1,154 +1,319 @@
-# 🐍 Python Studies
+<div align="center">
 
-Repositório destinado aos meus estudos de **Python**, acompanhando o curso de Python do [Gustavo Guanabara — Curso em Vídeo](https://www.cursoemvideo.com/).
+# 🐍 Python Estudos
 
-O objetivo deste repositório é registrar meu aprendizado de forma organizada, acompanhar meu progresso e praticar Python através de exercícios e pequenos projetos.
+**Meu diário de bordo na jornada para aprender Python do zero, um commit por vez.**
 
-## 📚 Curso
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20andamento-success?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-versionado-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-**Curso:** Python — Curso em Vídeo
-**Professor:** Gustavo Guanabara
-**Linguagem:** Python 3
-**Meta de estudo:** mínimo de 14 horas por semana
+[Roadmap](#-roadmap) •
+[Progresso](#-progresso) •
+[Estrutura](#-estrutura-do-repositório) •
+[Rotina](#-rotina-de-estudo) •
+[Projetos](#-projetos)
+
+</div>
+
+---
+
+## 📖 Sobre
+
+Este repositório reúne tudo o que estou aprendendo sobre **Python**: anotações, exemplos de código, exercícios resolvidos, um caderno de erros e projetos práticos.
+
+Ele tem dois objetivos:
+
+1. **Estudar de forma organizada**, dividindo o conteúdo em módulos e tópicos.
+2. **Mostrar minha evolução** de forma transparente, com histórico de commits e progresso visível.
+
+| | |
+|---|---|
+| 🎯 **Objetivo** | [automação, análise de dados, desenvolvimento web, mercado de trabalho] |
+| 📅 **Início** | [20/09/2026] |
+| ⏱️ **Dedicação** | [1h por dia, 5h por semana] |
+| 🧑‍💻 **Ambiente** | [Linux + VS Code + Python 3.14.7] |
+
+---
+
+## 🗺️ Roadmap
+
+O conteúdo está dividido em **10 módulos**, do básico ao avançado. Cada módulo tem sua própria pasta, com notas, exemplos e exercícios por tópico.
+
+### 🟢 Nível 1: Base
+
+<details open>
+<summary><b>Módulo 01 · Fundamentos</b></summary>
+
+- [ ] Introdução e instalação
+- [ ] Sintaxe
+- [ ] Comentários
+- [ ] Variáveis
+- [ ] Tipos de dados
+- [ ] Números
+- [ ] Conversão de tipos (casting)
+
+</details>
+
+<details open>
+<summary><b>Módulo 02 · Texto, Lógica e Entrada de Dados</b></summary>
+
+- [ ] Strings (fatiamento e métodos)
+- [ ] Formatação de strings (f-strings)
+- [ ] Booleanos
+- [ ] Operadores
+- [ ] Entrada do usuário (`input`)
+
+</details>
+
+<details open>
+<summary><b>Módulo 03 · Estruturas de Dados</b></summary>
+
+- [ ] Listas
+- [ ] Tuplas
+- [ ] Conjuntos (sets)
+- [ ] Dicionários
+- [ ] List comprehension
+- [ ] Copiar e percorrer coleções
+
+</details>
+
+<details open>
+<summary><b>Módulo 04 · Controle de Fluxo</b></summary>
+
+- [ ] `if` / `elif` / `else`
+- [ ] `match`
+- [ ] Laço `while`
+- [ ] Laço `for`
+- [ ] `break`, `continue` e `pass`
+- [ ] `range()`
+
+</details>
+
+### 🟡 Nível 2: Intermediário
+
+<details>
+<summary><b>Módulo 05 · Funções</b></summary>
+
+- [ ] Criando e chamando funções
+- [ ] Argumentos e parâmetros
+- [ ] `*args` e `**kwargs`
+- [ ] Retorno de valores
+- [ ] Funções lambda
+- [ ] Escopo de variáveis
+- [ ] Recursão
+
+</details>
+
+<details>
+<summary><b>Módulo 06 · Erros e Arquivos</b></summary>
+
+- [ ] `try` / `except` / `finally`
+- [ ] Lançando exceções (`raise`)
+- [ ] Leitura e escrita de arquivos
+- [ ] Trabalhando com JSON
+- [ ] Trabalhando com CSV
+- [ ] Lendo tracebacks e depurando
+
+</details>
+
+<details>
+<summary><b>Módulo 07 · Módulos e Bibliotecas</b></summary>
+
+- [ ] Módulos e `import`
+- [ ] Biblioteca `math`
+- [ ] Datas com `datetime`
+- [ ] Expressões regulares (RegEx)
+- [ ] Gerenciador `pip`
+- [ ] Ambientes virtuais (`venv`)
+
+</details>
+
+### 🔴 Nível 3: Avançado
+
+<details>
+<summary><b>Módulo 08 · Programação Orientada a Objetos</b></summary>
+
+- [ ] Classes e objetos
+- [ ] `__init__` e `self`
+- [ ] Herança
+- [ ] Polimorfismo
+- [ ] Encapsulamento
+- [ ] Iteradores e geradores
+
+</details>
+
+<details>
+<summary><b>Módulo 09 · Boas Práticas e Testes</b></summary>
+
+- [ ] PEP 8 e legibilidade
+- [ ] Docstrings e type hints
+- [ ] Testes com `pytest`
+- [ ] Organização de projetos
+
+</details>
+
+<details>
+<summary><b>Módulo 10 · Consumo de APIs e Projeto Final</b></summary>
+
+- [ ] Requisições HTTP com `requests`
+- [ ] Consumo de APIs REST
+- [ ] Projeto final integrando tudo
+
+</details>
+
+---
+
+## 📊 Progresso
+
+Legenda: ✅ concluído · 🚧 em andamento · ⬜ não iniciado
+
+| # | Módulo | Nível | Tópicos | Progresso | Status |
+|:-:|--------|:-----:|:-------:|:---------:|:------:|
+| 01 | Fundamentos | 🟢 | 0/7 | `░░░░░░░░░░` 0% | ⬜ |
+| 02 | Texto, Lógica e Entrada de Dados | 🟢 | 0/5 | `░░░░░░░░░░` 0% | ⬜ |
+| 03 | Estruturas de Dados | 🟢 | 0/6 | `░░░░░░░░░░` 0% | ⬜ |
+| 04 | Controle de Fluxo | 🟢 | 0/6 | `░░░░░░░░░░` 0% | ⬜ |
+| 05 | Funções | 🟡 | 0/7 | `░░░░░░░░░░` 0% | ⬜ |
+| 06 | Erros e Arquivos | 🟡 | 0/6 | `░░░░░░░░░░` 0% | ⬜ |
+| 07 | Módulos e Bibliotecas | 🟡 | 0/6 | `░░░░░░░░░░` 0% | ⬜ |
+| 08 | Programação Orientada a Objetos | 🔴 | 0/6 | `░░░░░░░░░░` 0% | ⬜ |
+| 09 | Boas Práticas e Testes | 🔴 | 0/4 | `░░░░░░░░░░` 0% | ⬜ |
+| 10 | APIs e Projeto Final | 🔴 | 0/3 | `░░░░░░░░░░` 0% | ⬜ |
+
+> 💡 Para atualizar a barra, troque `░` por `█` (cada bloco vale 10%). Exemplo: `███░░░░░░░` = 30%.
+
+---
+
+## 🚀 Projetos
+
+Ao final de cada bloco de módulos, construo um mini projeto que junta o que aprendi. Cada projeto tem seu próprio README (o que faz, como rodar e o que aprendi).
+
+| Após o módulo | Projeto | Descrição | Status |
+|:-------------:|---------|-----------|:------:|
+| 02 | [Calculadora simples](projetos/calculadora/) | Operações básicas com entrada do usuário | ⬜ |
+| 04 | [Jogo de adivinhação](projetos/jogo-adivinhacao/) | Número secreto com dicas e tentativas | ⬜ |
+| 05 | [Gerenciador de tarefas](projetos/gerenciador-tarefas/) | Lista de tarefas no terminal | ⬜ |
+| 06 | [Agenda de contatos](projetos/agenda-contatos/) | CRUD com persistência em JSON | ⬜ |
+| 08 | [Sistema bancário](projetos/sistema-bancario/) | Contas e transações com POO | ⬜ |
+| 10 | [Projeto final](projetos/projeto-final/) | A definir, consumindo uma API | ⬜ |
 
 ---
 
 ## 🗂️ Estrutura do repositório
 
-```text
-Python-studies/
-├── README.md
+```
+python-estudos/
+│
+├── README.md                     # você está aqui
 ├── .gitignore
-├── progresso.md
-├── caderno-de-erros.md
+├── progresso.md                  # diário: data, o que estudei, dificuldades
+├── caderno-de-erros.md           # erros cometidos, causa e como evitar
 │
-├── mundo-01-fundamentos/
-│   ├── README.md
-│   ├── aula-01/
-│   │   ├── notas.md
-│   │   └── exemplos.py
-│   └── desafios/
+├── 01-fundamentos/
+│   ├── README.md                 # resumo do módulo
+│   ├── 01-introducao/
+│   │   ├── notas.md              # anotações com minhas palavras
+│   │   ├── exemplos.py           # código testado durante o estudo
+│   │   └── exercicios.py         # exercícios resolvidos
+│   ├── 02-sintaxe/
+│   └── ...
 │
-├── mundo-02/
-│   ├── README.md
-│   ├── aulas/
-│   └── desafios/
-│
-├── mundo-03/
-│   ├── README.md
-│   ├── aulas/
-│   └── desafios/
+├── 02-texto-logica-entrada/
+├── 03-estruturas-de-dados/
+├── 04-controle-de-fluxo/
+├── 05-funcoes/
+├── 06-erros-e-arquivos/
+├── 07-modulos-e-bibliotecas/
+├── 08-orientacao-a-objetos/
+├── 09-boas-praticas-e-testes/
+├── 10-apis-e-projeto-final/
 │
 └── projetos/
+    └── nome-do-projeto/
+        ├── README.md             # o que faz, como rodar, o que aprendi
+        └── main.py
 ```
 
----
+Cada tópico segue o mesmo padrão de três arquivos:
 
-# 📈 Progresso
-
-## Mundo 1 — Fundamentos
-
-* [ok] Aula 01
-* [ ] Aula 02
-* [ ] Aula 03
-* [ ] Aula 04
-* [ ] Aula 05
-* [ ] Aula 06
-* [ ] Aula 07
-* [ ] Aula 08
-* [ ] Aula 09
-* [ ] Aula 10
-* [ ] Aula 11
-* [ ] Aula 12
-* [ ] Aula 13
-* [ ] Aula 14
-* [ ] Aula 15
-* [ ] Aula 16
-* [ ] Aula 17
-* [ ] Aula 18
-* [ ] Aula 19
-* [ ] Aula 20
-* [ ] Aula 21
-* [ ] Aula 22
-* [ ] Aula 23
-* [ ] Aula 24
-* [ ] Aula 25
-* [ ] Aula 26
-* [ ] Aula 27
-* [ ] Aula 28
-* [ ] Aula 29
-* [ ] Aula 30
-* [ ] Aula 31
-* [ ] Aula 32
-* [ ] Aula 33
-* [ ] Aula 34
-* [ ] Aula 35
-
-**Status:** 🟡 Em andamento
+| Arquivo | Conteúdo |
+|---------|----------|
+| `notas.md` | Resumo do conceito, armadilhas comuns e dúvidas |
+| `exemplos.py` | Código que escrevi para testar e entender |
+| `exercicios.py` | Exercícios resolvidos por mim, sozinho |
 
 ---
 
-## Mundo 2 — Estruturas de Controle
+## 🔄 Rotina de estudo
 
-* [ ] Conteúdo do Mundo 2
-* [ ] Exercícios
-* [ ] Desafios
-* [ ] Mini projeto
+```
+📖 Ler  →  ⌨️ Digitar e testar  →  📝 Anotar  →  🧩 Exercitar  →  🔍 Revisar  →  💾 Commitar
+```
 
-**Status:** ⚪ Não iniciado
-
----
-
-## Mundo 3 — Estruturas Compostas
-
-* [ ] Conteúdo do Mundo 3
-* [ ] Exercícios
-* [ ] Desafios
-* [ ] Mini projeto
-
-**Status:** ⚪ Não iniciado
+1. **Ler** o tópico com atenção.
+2. **Digitar e testar** todos os exemplos, sem copiar e colar.
+3. **Anotar** com minhas próprias palavras em `notas.md`.
+4. **Exercitar** resolvendo os exercícios sozinho antes de procurar a resposta.
+5. **Revisar** o código (com ajuda de uma IA mentora) e registrar os erros no `caderno-de-erros.md`.
+6. **Commitar** o tópico concluído.
 
 ---
 
-# 🚀 Projetos
+## ▶️ Como executar
 
-Os projetos abaixo serão desenvolvidos conforme os conhecimentos adquiridos durante o curso.
+**Pré-requisito:** [Python 3](https://www.python.org/downloads/) instalado. Para conferir:
 
-| Projeto    | Mundo   | Status       |
-| ---------- | ------- | ------------ |
-| Projeto 01 | Mundo 1 | ⚪ Planejado |
-| Projeto 02 | Mundo 2 | ⚪ Planejado |
-| Projeto 03 | Mundo 3 | ⚪ Planejado |
+```bash
+python --version
+```
 
----
+**Clonar e rodar:**
 
-# 🧠 O que estou aprendendo
+```bash
+git clone https://github.com/[seu-usuario]/[nome-do-repo].git
+cd [nome-do-repo]
 
-Este repositório também serve como registro da minha evolução.
+python 01-fundamentos/01-introducao/exemplos.py
+```
 
-Alguns dos conceitos que serão registrados ao longo do curso:
-
-* Sintaxe do Python
-* Variáveis
-* Tipos de dados
-* Operadores
-* Entrada e saída de dados
-* Estruturas condicionais
-* Estruturas de repetição
-* Funções
-* Listas
-* Tuplas
-* Dicionários
-* Modularização
-* Tratamento de erros
-* E outros conceitos apresentados durante o curso
+> No Linux e no macOS, use `python3` no lugar de `python`.
 
 ---
 
-## 🎯 Objetivo
+## 🧾 Padrão de commits
 
-Mais do que simplesmente terminar um curso, meu objetivo é:
+Uso [Conventional Commits](https://www.conventionalcommits.org/pt-br/), em português, com um commit por tópico:
 
-> **Entender o que estou escrevendo, praticar constantemente e construir uma base sólida em programação.**
+| Prefixo | Quando usar | Exemplo |
+|---------|-------------|---------|
+| `docs` | notas, README, diário | `docs(modulo-01): adiciona notas de variáveis` |
+| `feat` | novo exemplo, exercício ou projeto | `feat(modulo-03): resolve exercícios de listas` |
+| `fix` | correção de código | `fix(modulo-04): corrige condição do laço while` |
+| `refactor` | melhoria sem mudar o resultado | `refactor(modulo-05): simplifica função de cálculo` |
+| `test` | testes | `test(projetos): adiciona testes da calculadora` |
+| `chore` | organização e arquivos de apoio | `chore: adiciona .gitignore` |
 
-Este repositório representa minha evolução durante essa jornada.
+---
+
+## 🎯 Metas
+
+- [ ] Concluir os 10 módulos
+- [ ] Construir os 6 projetos
+- [ ] Manter constância: estudar e commitar toda semana
+- [ ] Publicar o projeto final com README completo
+- [ ] Próximos passos: SQL, `pandas`, `Flask` ou `FastAPI`
+
+---
+
+## 📬 Contato
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-seu--usuario-181717?style=for-the-badge&logo=github)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-seu--perfil-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
+
+<sub>Feito com dedicação, um commit por vez. 🚀</sub>
+
+</div>
